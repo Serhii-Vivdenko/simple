@@ -16,15 +16,10 @@ public class Main {
          );
 
 
-        //Optional personAge = people.stream().findFirst();
-        Stream<Person> stream = people.stream().findFirst().stream();
-
         for (Person person : people){
             System.out.println(person);
         }
-
-
-        System.out.println(stream);
+        
 
 
 
